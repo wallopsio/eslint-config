@@ -1,27 +1,27 @@
 {
-  "name": "@nighttrax/eslint-config-ts",
+  "name": "@wallopsio/eslint-config-ts",
   "version": "11.0.0",
   "publishConfig": {
     "access": "public"
   },
-  "description": "NiGhTTraX's ESLint config for TS libs",
+  "description": "WallOps's ESLint config for TS libs",
   "keywords": [
     "eslint",
     "config",
     "typescript"
   ],
-  "author": "Andrei Picus <NiGhTTraX@users.noreply.github.com>",
+  "author": "WallOps",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
+    "url": "git+https://github.com/wallopsio/eslint-config.git"
   },
   "scripts": {
     "test": "../../test.sh mugshot ts"
   },
   "dependencies": {
-    "@nighttrax/eslint-config-base": "^10.0.0",
+    "@wallopsio/eslint-config-base": "^10.0.0",
     "@rushstack/eslint-patch": "~1.2.0",
     "@typescript-eslint/eslint-plugin": "~5.47.0",
     "@typescript-eslint/parser": "~5.47.0",
