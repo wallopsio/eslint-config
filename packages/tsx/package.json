@@ -1,6 +1,6 @@
 {
   "name": "@wallopsio/eslint-config-tsx",
-  "version": "11.0.0",
+  "version": "12.0.0",
   "publishConfig": {
     "access": "public"
   },
@@ -22,11 +22,11 @@
     "test": "../../test.sh tdd-buffet tsx"
   },
   "dependencies": {
-    "@wallopsio/eslint-config-base": "^10.0.0",
-    "@wallopsio/eslint-config-react": "^9.0.0",
     "@rushstack/eslint-patch": "~1.2.0",
     "@typescript-eslint/eslint-plugin": "~5.47.0",
     "@typescript-eslint/parser": "~5.47.0",
+    "@wallopsio/eslint-config-base": "^11.0.0",
+    "@wallopsio/eslint-config-react": "^10.0.0",
     "eslint-import-resolver-typescript": "~3.5.0",
     "eslint-plugin-import": "~2.26.0",
     "eslint-plugin-jsx-a11y": "~6.6.0",
